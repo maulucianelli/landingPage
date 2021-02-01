@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 25px;
+  font-family: Roboto;
+}
+h1{
+  font-family: Roboto;
+  color: black;
+  font-weight: lighter;
+  font-size: 30px;
+}
+h2 {
+  font-family: Roboto;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#banner{
+  text-align: center;
+  background-image:url("images/pexels.jpeg") ;
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
